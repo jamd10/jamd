@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  padding: 20px;
+}
+
+.logincontainer #loginForm {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 400%;
+  margin: 0 auto;
+}
+
+.logincontainer .logo {
+  background-image: url(logo.jpg);
+  background-size: contain;
+  width: 260px;
+  height: 130px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.logincontainer h2 {
+  margin: 0 0 10px;
+}
+
+.logincontainer input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.logincontainer button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.logincontainer button:hover {
+  background-color: #0056b3;
+}
+
+.logincontainer .recover-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.logincontainer .recover-link:hover {
+  text-decoration: underline;
+}
+
+.logincontainer .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logincontainer .modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.logincontainer .close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logincontainer .close:hover {
+  color: black;
+}
+
+.logincontainer #recoveryForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.logincontainer #recoveryForm label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.logincontainer #recoveryForm input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.logincontainer #recoveryForm button {
+  background-color: #1877f2;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logincontainer #recoveryForm button:hover {
+  background-color: #115293;
+}
